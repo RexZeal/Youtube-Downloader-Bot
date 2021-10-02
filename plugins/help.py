@@ -7,4 +7,6 @@ async def start(client, message):
     helptxt2 = f"📌 Get the youtube url From @vid"
     helptxt3 = f"📌 Contact @RexZeal if you have any problems"
 
-    await message.reply_text(helptxt1, helptxt2, helptxt3)
+    await message.reply_text(helptxt1)
+    await message.reply_text(helptxt2)
+    await message.reply_text(helptxt3)
